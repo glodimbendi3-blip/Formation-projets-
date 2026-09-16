@@ -1,0 +1,32 @@
+/*=============Reset universel===============================
+===========================================================*/
+*{margin: 0; padding: 0; box-sizing: border-box;}
+.encadre{display: flex; flex-direction: column-reverse; margin-top: 30px;} /*-------container principal----*/
+/*=========================FIRST-MOBILE==========================================*/
+/*--------------------1. Logo Kadea Academy-------------------*/
+.menu{display:flex; justify-content: center;  flex-direction: column; align-items: center; gap: 30px; 
+    margin-top:50px; padding: 20px;}
+.menu img{width:120px}
+img{width: 20%;}
+.logo{font-size: 1.3rem; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+.descrip{width: 90%; text-align: center;}
+.descrip h1{ font-size: 1.5rem;}
+.descrip p{font-size: 1rem; color: gray;}
+/*------------------------------2. Champ de recherche--------------------------
+----------------------------------------------------------------------------*/
+.search-card{width: 90%; max-width: 600px; height: 40px; display: flex; justify-content: center; flex-direction: row-reverse; background-color: blue; margin: auto;
+height: 35px;border-radius: 10px; box-shadow: 3px 3px 3px rgb(189, 185, 185); 
+overflow: hidden; border: 1px solid rgb(189, 185, 185); font-size: 2rem;}
+input:focus{outline: none;}
+input{font-size: 1.5rem;}
+.champ{width: 100%; border: none; padding: 10px; font-size: 1rem;}
+button{width: 20%; border:none; background: white;}
+.card{display: flex; flex-direction: column;  align-items: center; gap:2.5rem}
+
+/*====================================DESKTOP=============================*/
+@media (min-width:768px) {
+    .search-card{width: 50%; flex-direction: row;}
+    .encadre{flex-direction: column;}
+    .descrip h1{font-size: 2rem;}
+}
+
