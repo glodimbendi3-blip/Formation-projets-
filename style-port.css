@@ -1,0 +1,58 @@
+/*--------------------RESET-----------------------------*/
+*{margin: 0; padding: 0; box-sizing: border-box; font-family: inter; list-style: none; text-decoration: none;}
+/*------------------Police----------------------------*/
+@font-face{ font-family: "inter"; src: local("inter"), url("Inter/Inter-VariableFont_opsz\,wght.ttf")}
+/*-------------------- menu --------------------------*/
+.menu{display: flex; justify-content: space-between; background: #233955; 
+    padding: 15px; align-items: center; margin-top: 0; position: fixed; width: 100vw;}
+.logo{display: flex; flex-direction: column; gap:0;justify-content:first baseline;}
+.logo-text{height: 50px;}
+.D{font-size: 2rem; font-family: inter; color:#284df5; font-weight: bold; margin: 0;}
+.fixe{color: white; font-size: 2rem; margin: 0;}
+.comment{color: rgb(206, 204, 204); font-size: 0.8rem;}
+.nav-link{display: none;}
+.mode{display: none;}
+.burger{width: 44px; height: 44px; background: none; padding: 8px; cursor: pointer; border: none;}
+.burger span{display: block; width: 100%; height: 3px; background: white; margin: 5px 0;}
+/*----------------------------- main-contenu -------------------------------*/
+main{background: #07172c; }
+.first-cont{padding: 15px; padding-top: 150px; display: flex; justify-content: center; gap:20px;
+flex-direction: column;}
+.hey{background: rgba(255, 255, 255, 0.1) ; width: 120px; padding: 5px; font-size: 0.8rem; border-radius: 15px; 
+    margin:0; }
+.hey p{color: white; text-align: center;}
+.par{font-size: 1.2rem; color: white; line-height: 1px;}
+.text-first{font-size: 1.2rem; line-height: 1.3rem ; color: rgba(255, 255, 255, 0.5); margin-top: 20px;}
+.buttons{display: flex; flex-direction: co; gap: 20px; justify-content: center; padding: 15px;}
+.buttons a{text-decoration: none; color:white; font-size: 0.8rem; padding:1px;}
+.buttons a:hover{color:#07172c; font-weight: bold;}
+.butt-cadre{border: 2px solid white; width: 40%; text-align: center; border-radius: 15px;}
+.butt-cadre:hover{background: #fabd21;}
+.follow{display: flex; width: 30%; justify-content: center; gap:15px}
+.icone-follow{width:30px;}
+.icone-follow img{width: 100%;}
+.diglo-avat{width: 50%; padding-bottom: 0; margin-bottom: 0;}
+.diglo-avat img{width: 100%;}
+footer{background:  #031124; display: flex; flex-direction: column;}
+.foot{background: transparent;}
+.copyright{font-size: 1.2rem; color: rgba(255, 255, 255, 0.5); text-align: center;}
+
+/* ===================== DESKTOP ========================= */
+
+@media (min-width: 768px) {
+.logo{flex-direction: row;align-items:last baseline;;height: 12vh; padding-t}
+.D, .fixe{font-size: 3rem;}
+.nav-link{display: flex; gap:30px}
+.nav-link a{color: white; font-size: 1.2rem;}
+.nav-link a:hover{border-bottom: 5px solid #fabd21;}
+.mode{display:block; width: 44px; height: 44px; border: 2 solid white; margin-right: 50px; }
+.mode img{width:100%;}
+.burger{display: none;}
+.first-cont{flex-direction: row;}
+.diglo-avat{width: 30%; aspect-ratio: 1/1; order: 2;}
+.diglo-avat img{width:100%; aspect-ratio: 1/1;}
+.left-container{width: 40%; height: 300px;}
+.follow{margin-top:80px ;}
+}
+
+
