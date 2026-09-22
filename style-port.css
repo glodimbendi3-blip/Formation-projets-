@@ -7,7 +7,7 @@
     padding: 15px; align-items: center; margin-top: 0; position: fixed; width: 100vw;}
 .logo{display: flex; flex-direction: column; gap:0;justify-content:first baseline;}
 .logo-text{height: 50px;}
-.D{font-size: 2rem; font-family: inter; color:#284df5; font-weight: bold; margin: 0;}
+.D{font-size: 2rem; font-family: inter; color:#f5be28; font-weight: bold; margin: 0;}
 .fixe{color: white; font-size: 2rem; margin: 0;}
 .comment{color: rgb(206, 204, 204); font-size: 0.8rem;}
 .nav-link{display: none;}
