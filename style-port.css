@@ -74,7 +74,7 @@ footer{background:  #031124; display: flex; flex-direction: column;}
 .comment{color: rgb(206, 204, 204); font-size: 0.8rem;display:block}
 .copyright{font-size: 1rem;}
 /*--------------------compétence------*/
-.skill-container{display: flex; margin: 30px;}
+.skill-container{display: flex;}
 .skill-description{display: block; font-size: 1.2rem; line-height: 1.5rem;}
 .skill-texte{width: 40%;}
 .skill-texte  h2{color:#fabd21; font-size: 2rem;}
