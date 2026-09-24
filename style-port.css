@@ -45,13 +45,14 @@ footer{background:  #031124; display: flex; flex-direction: column;}
 .abo-text{font-size: 1rem; font-weight: bold; color: #031124;}
 /*-------------------main----------------*/
 .skills{display: flex; flex-direction: column; gap:5px;background:#e0ecf8; padding: 15px;}
-.skills h1{font-size: 1.2rem;}
+.skills h2{font-size: 1.2rem;}
 .prefixe{display: none;}
 .skill-container{display: grid; grid-template-columns: repeat(3, 1fr); grid-template-rows: 1fr 1fr; gap: 20px;}
-.skill-card{background: white; padding: 10px; width: 200px; display: flex; flex-direction:column; 
+.skill-card{background: white; padding: 10px; width: 100%; display: flex; flex-direction:column; 
             align-items: center; border-radius: 15px; box-shadow: 5px 5px rgb(228, 221, 221);}
 .skill-card img{width: 25%;}
-.prefix{display: none;}
+.skill-card h3{font-size: 0.8rem;}
+.skill-card p{font-size: 0.8rem;}
 
 
 /* ===================== DESKTOP ========================= */
