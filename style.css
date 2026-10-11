@@ -1,0 +1,41 @@
+/*---------------1. Reset style---------------- */
+*{padding:0; margin:0; box-sizing: border-box;}
+/*---------------2. Variables globales----------*/
+:root{--primary-color : linear-gradient(359deg, #030b37, rgba(5, 5, 151, 0.863));
+      --secondary-color :red; --color-texte-tit :#030b37; --color-texte-des :#0360db;}
+.mode{width: 100%; height: 100vh; overflow: hidden;box-sizing: border-box;}/*------occupe toute la page---*/
+/*=================================================
+====First-mobile=================================*/
+/*===============================ECRAN 1 HOME=========================*/
+/*----------------------Backgroud------------------------------*/
+.ecran-actif.mode{background:linear-gradient(to bottom, rgba(0, 30, 100, 0.55), rgba(0, 35, 105, 0.80)55%, #030b47 100%), 
+    url(fonds/background-page1.jpg) center bottom / cover no-repeat, linear-gradient(135deg,#073b98, #001747);}/*----
+    --------configugation background image----*/
+
+body{background-attachment: fixed;}
+/*---------------------------TOP-CARD----------------*/
+.top{padding: 15px; margin-top: 70px; display: flex; flex-direction: column; justify-content: center; align-items: center;}
+.logo{display:flex;justify-content: center;}
+.logo img{width: 50%;}
+.home-texte{display: flex; flex-direction: column; align-items: center; font-family: sans-serif;
+    h1{color: white; font-size: 2.3rem};
+    .sh{color:#f88a02;};
+    .description{color: white;text-align: center;font-size: 1.2rem; font-family: serif;}
+}
+/*----------------------------Button-style---------------------------------------*/
+.start{display: flex;justify-content: center; align-items: end; height: 30%;}
+.start button{padding: 8px; border-radius: 15px; min-width: 300px;
+                a{font-size: 1.8em; text-decoration: none; color: var(--color-texte-tit); font-weight: bold;}}
+
+.ecran{background:#e2f6fc99;}
+.top-connect{padding-top: 0;}
+.G{color: var(--color-texte-tit);font-size: 2rem;}
+.sp{font-size:2rem ;}
+.paragraphe-style{color: var(--color-texte-des); font-size: 1rem;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                   font-weight: 480;}
+.champ{border: 1px solid #8fe0f899; display: flex; justify-content: center;padding: 10px; width: 90%;margin: auto; gap: 20px;
+       align-items: center;border-radius: 12px;}
+.champ-containeur{display: flex; flex-direction: column;justify-content: center; align-items: center; gap: 20px;}
+.label-input{display: flex; flex-direction: column; gap: 10px;}
+input{border: none; background: transparent;outline: none; color: var(--color-texte-des);}
+input::placeholder{color:var(--color-texte-des);}
