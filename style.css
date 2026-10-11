@@ -22,7 +22,7 @@ body{background-attachment: fixed;}
     .sh{color:#f88a02;};
     .description{color: white;text-align: center;font-size: 1.2rem; font-family: serif;}
 }
-/*----------------------------Button-style---------------------------------------*/
+/*----------------------------BOTTOM-CARD------Button-style---------------------------------------*/
 .start{display: flex;justify-content: center; align-items: end; height: 30%;}
 .start button{padding: 8px; border-radius: 15px; min-width: 300px;
                 a{font-size: 1.8em; text-decoration: none; color: var(--color-texte-tit); font-weight: bold;}}
@@ -35,7 +35,12 @@ body{background-attachment: fixed;}
                    font-weight: 480;}
 .champ{border: 1px solid #8fe0f899; display: flex; justify-content: center;padding: 10px; width: 90%;margin: auto; gap: 20px;
        align-items: center;border-radius: 12px;}
-.champ-containeur{display: flex; flex-direction: column;justify-content: center; align-items: center; gap: 20px;}
+.champ-containeur{display: flex; flex-direction: column;justify-content: center; align-items: center; gap: 10px;}
 .label-input{display: flex; flex-direction: column; gap: 10px;}
 input{border: none; background: transparent;outline: none; color: var(--color-texte-des);}
 input::placeholder{color:var(--color-texte-des);}
+.dec{padding: 15px; display: flex; justify-content: space-between;}
+.dec input{background-color: var(--primary-color); border: 1 solid #8fe0f899;}
+.connecter-butt button{background: var(--primary-color);  color: white;}
+.create-count{padding: 15px;display: flex; flex-direction: column; justify-content: center;margin: auto; align-items: center;}
+.create-count a{font-weight: bold;}
